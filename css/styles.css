@@ -1,0 +1,86 @@
+html,
+body {
+	height: 100%;
+	font-family: Roboto;
+	font-size: 0.95rem;
+}
+
+#cover {
+	background: #222 url('../img/welcome.jpg') center no-repeat;
+	background-size: cover;
+	color: #EDE9E8;
+	height: 100%;
+	text-align:center;
+	display: flex;
+	align-items: center;
+	text-shadow: 2px 1px 3px black;
+	padding-top: 15%;
+}
+
+img {
+	max-width: 100%;
+}
+
+#cover-caption {
+	width: 100%;
+	padding-left: 10%;
+}
+
+.section-content {
+	padding: 1rem 0;
+}
+
+#about {
+	background: url("../img/aboutMee.png") right no-repeat #E8E8E8;
+	background-size: contain;
+	border-width: initial;
+	margin: 0;
+}
+
+.about-text {
+	background: rgba(0,0,0,0.6);
+	color: white;
+	padding: 2rem;
+}
+
+.pagination {
+	padding-top: 0.5rem;
+}
+
+label { 
+	margin: 20px 0 0 0;
+}
+
+textarea { 
+	margin: 0 0 20px 0; 
+} 
+
+#connect {
+	background: #222 url('../img/connect.jpg') center no-repeat;
+	background-size: cover;
+	border-width: 100%;
+	margin: 0;
+	color: white;
+
+
+}
+
+.form-control {
+	font-size:0.8rem;
+	background: rgba(255,255,255,0.7);
+}
+
+#footer-main {
+	background: #222;
+	color: white;
+	font-size:0.8rem;
+	padding: 2.5rem;
+	list-style-type: none;
+}
+
+
+
+
+
+
+
